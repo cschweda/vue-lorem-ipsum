@@ -17,9 +17,11 @@
       <p>Lorem Ipsum text and image placeholders updated for Vue 2.0.
         Use anywhere you need a placeholder for a text or image block.</p>
 
-      <h3>Installation</h3>
+      <h3 class="rule">Installation</h3>
 
-      <p>Register the directives with the current Vue instance:</p>
+      <h4>Directives only</h4>
+
+      <div class="indent">
 
         <p>Insert the <code>placeholders/</code> folder into your source code and then require it:</p>
         <pre> require('./placeholders');</pre>
@@ -29,18 +31,41 @@
       <pre> Vue.directive('phtext', require('./phtext.js'))</pre>
       <pre> Vue.directive('phimage', require('./phimage.js'))</pre>
 
+    </div>
+
+      <h4>Entire project</h4>
+
+      <div class="indent">
+
+      <p>This project was created with the <a href="https://github.com/vuejs-templates/webpack-simple">vue-cli webpack-simple template</a>. To run or build this project:</p>
+
+      <p>Install:</p>
+       <pre> npm install</pre>
+
+       <p>Run:</p>
+       <pre> npm run dev</pre>
+
+       <p>Build:</p>
+
+       <pre> npm run build</pre>
 
 
+     </div>
 
-      <h3>Usage</h3>
+
+      <h3 class="rule">Usage</h3>
+
+      <div class="indent">
 
       <p>For placeholder lorem ipsum text:</p>
 
       <pre> &lt;div v-phtext:2p3s>&lt;/div&gt;</pre>
 
-      <p>For placeholder image</p>
+      <p>For placeholder images:</p>
 
       <pre> &lt;img v-phimg:1200x500 /&gt;</pre>
+
+    </div>
 
       <h3>API</h3>
 
@@ -56,7 +81,9 @@
       <p>String data for the lorem ipsum text is stored as an array in <code>phdata.js</code>.</p>
 
 
-      <h3>Attribution</h3>
+      <h3 class="rule">Attribution</h3>
+
+      <div class="indent">
 
       <p>Many thanks to <a href="">lithiumjake's</a> <a href="https://github.com/lithiumjake/vue-placeholders">vue-placeholders</a> project. My version is a slightly
       modified version of <a href="https://github.com/lithiumjake/vue-placeholders">vue-placeholders</a>,
@@ -67,10 +94,16 @@
       <p>Finally, thanks to <a href="https://github.com/milligram/milligram">Milligram's superb css framework
         project</a> for the grid layout and styling
       in this example page.</p>
+    </div>
 
-      <h3>Support</h3>
+      <h3 class="rule">Support</h3>
+        <div class="indent">
 
-      This code is <a href="">available on Github</a>.
+<p>
+      This code is <a href="">available on Github</a>.</p>
+
+      <p>A live demo is available here:<br><a href="https://signaller-recruiters-27058.netlify.com/">https://signaller-recruiters-27058.netlify.com/</a>
+    </div>
 
 
 
@@ -92,6 +125,9 @@
       <img v-phimage:450x200 />
 
       <div v-phtext:2p3s></div>
+      <img v-phimage:450x200 />
+
+      <div v-phtext:3p3s></div>
     </div>
 
   </div>
@@ -136,15 +172,10 @@ h1, h2 {
   font-weight: normal;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
+.rule {border-bottom: 1px solid #bbb; padding-bottom: 8px}
 
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+.indent {margin-left: 15px;}
+
 
 a {
   color: #42b983;
