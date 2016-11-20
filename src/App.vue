@@ -9,7 +9,6 @@
     <div class="container" id="demo">
         <div class="row">
 
-
             <div class="column">
 
                 <h2>About</h2>
@@ -21,15 +20,11 @@
                 <h4>Directives only</h4>
 
                 <div class="indent">
-
                     <p>Insert the <code>placeholders/</code> folder into your project and then require it:</p>
                     <pre> require('./placeholders');</pre>
-
                     <p>Or, register each placeholder as needed:</p>
-
                     <pre> Vue.directive('phtext', require('./phtext.js'))</pre>
                     <pre> Vue.directive('phimage', require('./phimage.js'))</pre>
-
                 </div>
 
                 <h4>Entire project</h4>
@@ -45,7 +40,6 @@
                     <pre> npm run dev</pre>
 
                     <p>Build:</p>
-
                     <pre> npm run build</pre>
 
 
@@ -98,10 +92,6 @@
                         <br><a href="https://signaller-recruiters-27058.netlify.com/">https://signaller-recruiters-27058.netlify.com/</a>
                 </div>
 
-
-
-
-
             </div>
 
             <div class="column">
@@ -122,10 +112,6 @@
             </div>
 
         </div>
-
-
-
-
 
     </div>
 </div>
