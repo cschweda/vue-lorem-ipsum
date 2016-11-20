@@ -23,7 +23,7 @@
 
       <div class="indent">
 
-        <p>Insert the <code>placeholders/</code> folder into your source code and then require it:</p>
+        <p>Insert the <code>placeholders/</code> folder into your project and then require it:</p>
         <pre> require('./placeholders');</pre>
 
       <p>Or, register each placeholder as needed:</p>
@@ -69,11 +69,11 @@
 
       <h3>API</h3>
 
-      <p><strong>phtext</strong> expects a string (a) indicating the number of paragraphs and
+      <p><strong>phtext</strong> expects a string (a) indicating the number of placeholderparagraphs and
       (b) the number of sentences in each paragraph. For example, <code>v-phtext:2p3s</code>
       would insert 2 paragraphs with 3 sentences in each paragraph.</p>
 
-      <p><strong>phimage</strong> expects a string indiciating the dimensions of the placeholder image.
+      <p><strong>phimage</strong> expects a string indicating the dimensions of the placeholder image.
         For example, <code>v-image:2000x500</code>
         would insert an image 2000 pixels in width and 500 pixels in height. The 'x' between the width and height
       is required.</p>
