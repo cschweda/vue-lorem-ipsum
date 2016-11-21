@@ -56,7 +56,7 @@
 
                     <p>For placeholder images:</p>
 
-                    <pre> &lt;img v-phimg:1200x500 /&gt;</pre>
+                    <pre> &lt;img v-phimge:1200x500 /&gt;</pre>
 
                 </div>
 
@@ -64,7 +64,7 @@
 
                 <p><strong>phtext</strong> expects a string (a) indicating the number of placeholderparagraphs and (b) the number of sentences in each paragraph. For example, <code>v-phtext:2p3s</code> would insert 2 paragraphs with 3 sentences in each paragraph.</p>
 
-                <p><strong>phimage</strong> expects a string indicating the dimensions of the placeholder image. For example, <code>v-image:2000x500</code> would insert an image 2000 pixels in width and 500 pixels in height. The 'x' between the width and height is required.</p>
+                <p><strong>phimage</strong> expects a string indicating the dimensions of the placeholder image. For example, <code>v-phimage:2000x500</code> would insert an image 2000 pixels in width and 500 pixels in height. The 'x' between the width and height is required.</p>
 
                 <p>String data for the lorem ipsum text is stored as an array in <code>phdata.js</code>.</p>
 
