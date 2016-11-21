@@ -54,9 +54,9 @@
 
                     <pre> &lt;div v-phtext:2p3s>&lt;/div&gt;</pre>
 
-                    <p>For placeholder images:</p>
+                    <p>For placeholder images:</p>  
 
-                    <pre> &lt;img v-phimge:1200x500 /&gt;</pre>
+                    <pre> &lt;img v-phimage:1200x500 /&gt;</pre>
 
                 </div>
 
