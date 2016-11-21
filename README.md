@@ -50,9 +50,10 @@ For placeholder images:
 ```
 
 
+
 ## API
 
-**phtext** expects a string (a) indicating the number of placeholderparagraphs and (b) the number of sentences in each paragraph. For example, v-phtext:2p3s would insert 2 paragraphs with 3 sentences in each paragraph.
+**phtext** expects a string (a) indicating the number of placeholderparagraphs and (b) the number of sentences in each paragraph. For example, v-phtext:2p3s would insert 2 paragraphs with 3 sentences each.
 
 **phimage** expects a string indicating the dimensions of the placeholder image. For example, v-phimage:2000x500 would insert an image 2000 pixels in width and 500 pixels in height. The 'x' between the width and height is required.
 
