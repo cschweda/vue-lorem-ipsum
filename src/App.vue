@@ -60,7 +60,7 @@
 
                 </div>
 
-                <h3>API</h3>
+                <h3 class="rule">API</h3>
 
                 <p><strong>phtext</strong> expects a string (a) indicating the number of placeholderparagraphs and (b) the number of sentences in each paragraph. For example, <code>v-phtext:2p3s</code> would insert 2 paragraphs with 3 sentences in each paragraph.</p>
 
