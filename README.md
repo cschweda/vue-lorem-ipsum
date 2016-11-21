@@ -58,7 +58,7 @@ For placeholder images:
 
 String data for the lorem ipsum text is stored as an array in **phdata.js**.
 
-##Attribution
+## Attribution
 
 Many thanks to [lithiumjake's vue-placeholders project](https://github.com/lithiumjake/vue-placeholders). My version is a slightly modified version of vue-placeholders, updated for Vue.js 2.0.
 
