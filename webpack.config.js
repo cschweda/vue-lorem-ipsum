@@ -1,6 +1,7 @@
 var path = require('path')
 var webpack = require('webpack')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
+var CleanWebpackPlugin = require('clean-webpack-plugin')
 
 module.exports = {
   entry: './src/main.js',
@@ -36,6 +37,11 @@ module.exports = {
     ]
   },
   plugins: [
+    new CleanWebpackPlugin(['dist', 'build'], {
+      root: '',
+      verbose: true,
+      dry: false
+    }),
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'index.html',
