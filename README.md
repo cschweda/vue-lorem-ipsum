@@ -46,7 +46,7 @@ For placeholder lorem ipsum text:
 
 For placeholder images:
 ```
-<img v-phimge:1200x500 />
+<img v-phimage:1200x500 />
 ```
 
 
